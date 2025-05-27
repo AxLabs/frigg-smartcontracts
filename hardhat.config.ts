@@ -32,18 +32,18 @@ const config: HardhatUserConfig = {
         url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
       },
     },
-    mainnet: {
-      url: `https://eth-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
-      accounts: [process.env.PRIVATE_KEY!],
-    },
-    goerli: {
-      url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
-      accounts: [process.env.PRIVATE_KEY!],
-    },
+    // mainnet: {
+    //   url: `https://eth-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
+    //   accounts: [process.env.PRIVATE_KEY!],
+    // },
+    // goerli: {
+    //   url: `https://eth-goerli.g.alchemy.com/v2/${process.env.ALCHEMY_KEY}`,
+    //   accounts: [process.env.PRIVATE_KEY!],
+    // },
   },
-  etherscan: {
-    apiKey: process.env.ETHERSCAN_API_KEY!,
-  },
+  // etherscan: {
+  //   apiKey: process.env.ETHERSCAN_API_KEY!,
+  // },
   gasReporter: {
     enabled: true,
   },
